@@ -5,7 +5,7 @@
  * @returns {Number} el resultat de la operacio
  */
 function suma(...valors) {
-
+    
 }
 
 
@@ -16,7 +16,7 @@ function suma(...valors) {
  * @returns {Number} el resultat de la operacio
  */
 function multiplica(...valors) {
-
+    return valors.reduce((acc, valor) => acc * valor, 1);
 }
 
 module.exports.suma = suma;
